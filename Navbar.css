@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(188, 229, 236);
+    color: black;
+}
+
+.Profile,
+.TodoList,
+.Masuk {
+    text-decoration: none;
+    color: rgb(134, 63, 63);
+    background-color: rgb(188, 229, 236);
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 16px;
+    margin: auto;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 80%;
+}
